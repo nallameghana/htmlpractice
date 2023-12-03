@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Mango</li>
+              <ul>
+                  <li>Colour : Yellow</li>
+                  <li>Season : Summers</li>
+                  <li>Type : Banginapally</li>
+              </ul>
+        <li>Guava</li>
+              <ol>
+                <li>colour : Green</li>
+                <li>Season : Rainy</li>
+              </ol>
+        <li>Apple</li>
+    </ul>
+
+    <ol>
+        <li>Grapes</li>
+        <li>Strawberry</li>
+        <li>Kiwi</li>
+    </ol>
+
+    <table>
+
+        <thead>
+        <caption>
+            Student Details
+        </caption>
+
+    <!-- <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Department</th>
+        </tr>-->
+        <tr>
+            <th colspan = "3">Information</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+            <td>Meghana</td>
+            <td>1225</td>
+            <td>Information Technology</td>
+        </tr>
+
+        <tr>
+            <td>Deepika</td>
+            <td>1226</td>
+            <td>Computer Science</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <hr>
+
+    <h3>Registration Form</h3>
+
+    <form action = "/action.php">
+
+        <br>
+        <input type = "text" placeholder = "Enter name">
+        <br><br>
+        <input type = "password" placeholder = "Enter password">
+        <br>
+
+        <!--If we don't use label then we should click only on the circular area otherwise we include 
+        label though we click on class XI or class XII rather than on circular area option gets ticked.-->
+      
+      <p>Select your class</p>
+
+      <label for = "101">
+        <input type = "radio" value = "class XI" name = "class" id = "101">class XI
+      </label>
+
+      <br>
+
+      <label for = "102">
+        <input type = "radio" value = "class XII" name = "class" id = "102">class XII
+      </label>
+
+      <br><br>
+      <p>Select your favourite subjects</p>
+
+      <label for = "105">
+        <input type = "checkbox" value = "Math" name = "class1" id = "105">Math
+      </label>
+
+      <br>
+     
+      <label for = "106">
+        <input type = "checkbox" value = "Computer Science" name = "class1" id = "106">Computer Science
+      </label>
+
+      <br>
+
+      <label for = "107">
+        <input type = "checkbox" value = "Physics" name = "class1" id = "107">Physics
+      </label>
+
+      <br>
+
+      <label for = "108">
+        <input type = "checkbox" value = "Chemistry" name = "class1" id = "108">Chemistry
+      </label>
+
+      <br><br>
+
+      <p>Select your state</p>
+
+      <select name = "State">
+           <option value = "Telangana">Telangana</option>
+           <option value = "Karnataka">Karnataka</option>
+           <option value = "TamilNadu">TamilNadu</option>
+           <option value = "Delhi">Delhi</option>
+           <option value = "Other">Other</option>
+      </select>
+
+      <br><br>
+
+      <textarea name = "feedback" id = "110" placeholder = "Please enter your valuable feedback here" rows ="7">Feedback</textarea>
+
+      <br>
+
+      <input type = "submit" value = "submit">
+
+    </form>
+   
+    <hr>
+    <br>
+
+    <p>Website inside website using iframe</p>
+
+    <iframe width = 560 height = 560 src = "https://en.wikipedia.org/wiki/India"></iframe>
+
+    <hr>
+
+    <br><br>
+
+    <p>Playing your videos</p>
+
+    <video width = 500 height = 300 src="/mvideo.mp4" controls loop >Video</video>
+
+</body>
+</html>
